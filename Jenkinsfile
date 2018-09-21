@@ -16,5 +16,10 @@ pipeline {
         echo 'this is testing'
       }
     }
+    stage('verify') {
+      steps {
+        echo 'this is verification'
+      }
+    }
   }
 }
